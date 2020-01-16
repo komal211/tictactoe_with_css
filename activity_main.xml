@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/text_view_p1"
+        android:background="@drawable/round_border"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:text="Player 1: 0"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:freezesText="true"/> <!--during orientation the value of the counter remains same-->
+
+    <TextView
+        android:background="@drawable/round_border"
+
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+
+        android:id="@+id/text_view_p2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_view_p1"
+        android:text="Player 2: 0"
+        android:textSize="30sp"
+        android:freezesText="true"/>
+
+    <Button
+
+        android:id="@+id/button_reset"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="33dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FDFEFE"
+        android:text="reset game"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_css"/>
+
+</RelativeLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1">
+    <Button
+        android:background="@drawable/bgof9btn"
+        android:id="@+id/button_00"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:textSize="60sp"
+        android:freezesText="true"
+        android:textColor="@android:color/holo_blue_dark"/>
+    <Button
+        android:textColor="@android:color/holo_blue_dark"
+        android:background="@drawable/bg2of9btn"
+        android:id="@+id/button_01"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:textSize="60sp"
+        android:freezesText="true"
+        />
+    <Button
+        android:textColor="@android:color/holo_blue_dark"
+        android:background="@drawable/bgof9btn"
+        android:id="@+id/button_02"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:textSize="60sp"
+        android:freezesText="true"
+        />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <Button
+            android:textColor="@android:color/holo_blue_dark"
+            android:background="@drawable/bg2of9btn"
+            android:id="@+id/button_10"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="60sp"
+            android:freezesText="true"
+            />
+        <Button
+            android:background="@drawable/bgof9btn"
+            android:id="@+id/button_11"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="60sp"
+            android:freezesText="true"
+            android:textColor="@android:color/holo_blue_dark"/>
+        <Button
+            android:background="@drawable/bg2of9btn"
+            android:id="@+id/button_12"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="60sp"
+            android:freezesText="true"
+            android:textColor="@android:color/holo_blue_dark"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <Button
+            android:background="@drawable/bgof9btn"
+            android:id="@+id/button_20"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="60sp"
+            android:freezesText="true"
+            android:textColor="@android:color/holo_blue_dark"/>
+        <Button
+            android:background="@drawable/bg2of9btn"
+            android:id="@+id/button_21"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="60sp"
+            android:freezesText="true"
+            android:textColor="@android:color/holo_blue_dark"/>
+        <Button
+            android:background="@drawable/bgof9btn"
+            android:id="@+id/button_22"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="60sp"
+            android:freezesText="true"
+            android:textColor="@android:color/holo_blue_dark"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
